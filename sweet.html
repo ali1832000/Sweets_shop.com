@@ -1,0 +1,650 @@
+<DOCTYE! html>
+    <html>
+
+    <head>
+        <title>
+            Sweetpage
+        </title>
+
+        <style>
+            header {
+                width: 100%;
+                height: 50px;
+                float: left;
+                box-sizing: border-box;
+                padding: 6px;
+            }
+
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+
+            #brand {
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+                float: left;
+                margin-left: 24px;
+            }
+
+            #tag_line {
+                float: right;
+                font-family: sans-serif font-size:30px;
+                margin-right: 24px;
+            }
+
+            nav {
+                width: 100%;
+                height: 120px;
+                background-color: #aeea23;
+                float: left;
+                box-sizing: border-box;
+                padding: 30px;
+            }
+
+            #search {
+                width: 400px;
+                height: 40px;
+                float: left;
+                box-sizing: border-box;
+                border: none;
+                font-size: 15;
+                padding: 10px;
+            }
+
+            #search_btn {
+                width: 100px;
+                height: 40px;
+                float: left;
+                box-sizing: border-box;
+                border: none;
+                margin-left: 3px;
+                font-size: 15;
+                padding: 10px;
+            }
+
+            #menu_table {
+                width: 600px;
+                height: 40px;
+                float: right;
+                box-sizing: border-box;
+
+
+
+
+            }
+
+            #menu_item {
+                background-color: white;
+                width: 20%;
+                text-align: center;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: sans-serif;
+            }
+
+            section {
+                width: 100%;
+                height: 1790px;
+                box-sizing: border-box;
+                border-width: 1px;
+                border-style: solid;
+                padding: 30px;
+            }
+
+            #Vanue {
+                float: left;
+                margin: 15px;
+            }
+
+            #phone {
+                float: right;
+                margin: 15px;
+            }
+
+            #popular-sweets-box {
+                width: 720px;
+                height: 550px;
+                float: left;
+                box-sizing: border-box;
+                background-color: black;
+                margin-top: 30px;
+                padding: 20px;
+            }
+
+            #Popular_sweets_title {
+                color: white;
+                text-align: center;
+                font-family: 30px;
+                font-size: sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            #sweets_img {
+                width: 300px;
+                height: 200px;
+                margin: 15px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: white;
+                box-sizing: border-box;
+            }
+
+            #rate_list-box {
+                width: 450px;
+                height: 550px;
+                float: right;
+                box-sizing: border-box;
+                margin-top: 30px;
+            }
+
+            #rate_header {
+                height: 50px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 25px;
+            }
+
+            #rate_content {
+                background-color: #6da8f2;
+            }
+
+            #sweet_name {
+                color: white;
+                font-family: sans-serif;
+                font-size: 22px;
+                padding: 10px;
+                border-bottom-width: 2px;
+                border-bottom-style: solid;
+                border-bottom-color: white;
+            }
+
+            #rate {
+                list-style: none;
+            }
+
+            fieldset {
+                width: 690px;
+                height: 550px;
+                float: left;
+                margin-top: 50px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                padding: 10px;
+            }
+
+            legend {
+                font-family: sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            #order_online {
+                font-size: 20px;
+                font-family: sans-serif;
+
+            }
+
+            #order_input {
+                width: 100%;
+                height: 35px;
+                box-sizing: border-box;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+            }
+
+            textarea {
+                width: 100%;
+                height: 90px;
+                box-sizing: border-box;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+            }
+
+            #submit_btn {
+                float: right;
+                padding: 10px;
+                font-family: 20px;
+                text-color: black;
+                box-sizing: border-box;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                background-color: white;
+            }
+
+            #about_us {
+                width: 450px;
+                height: 550px;
+                float: right;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                margin-top: 65px;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+
+            #about_us_title {
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 30px;
+            }
+
+            #about_text {
+                text-align: justify;
+                font-family: sans-serif;
+                line-height: 22px;
+            }
+
+            #m_sweets {
+                float: left;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            #more_sweets {
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 30px;
+            }
+
+            #sweets {
+                width: 218px;
+                height: 250px;
+                float: left;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                margin-right: 30px;
+                margin-top: 30px;
+
+            }
+
+            #sweets_end {
+                width: 218px;
+                height: 250px;
+                float: left;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #ccc;
+                margin-top: 30px;
+            }
+
+            #img_pic {
+                width: 180px;
+                height: 150px;
+                margin: 19px;
+            }
+
+            #buy_btn {
+                padding: 10px;
+                text-align: center;
+                border-width: 1px: border-style:solid;
+                border-color: #ccc;
+                width: 100px;
+                background-color: white;
+            }
+
+            footer {
+                width: 100%;
+                height: 250px;
+                box-sizing: border-box;
+                float: left;
+                background-color: black;
+            }
+
+            #contact_us {
+                width: 400px;
+                height: 250;
+                box-sizing: border-box;
+                float: left;
+
+                padding: 10px;
+                padding-left: 30px;
+            }
+
+            #social_link {
+                width: 300px;
+                height: 250;
+                box-sizing: border-box;
+                float: right;
+                border-width: 1px;
+
+            }
+
+            #contact_title {
+                color: white;
+                font-family: sans-serif;
+            }
+
+            #contact_detail {
+                color: white;
+                font-size: 20px;
+                font-family: sans-serif;
+                font-style: normal;
+                margin-bottom: 10px;
+            }
+
+            #social_logo {
+                width: 60px;
+            }
+
+            #devepoper {
+                float: left;
+                color: white;
+                font-family: sans-serif;
+                margin-top: 220px;
+                margin-left: 150px;
+
+            }
+
+            #sweets_main_box {
+                width: 100%;
+                height: 250px;
+                border: 1px solid red;
+            }
+        </style>
+
+    <body>
+
+        <header>
+            <h1 id="brand">Sweetshop.com</h1>
+            <p id="tag_line">The World's largest sweets and bakries shop</p>
+
+        </header>
+        <nav>
+            <form>
+                <input type="search name=" search" placeholder="Search your sweets hare" id="search">
+                <input type="submit" value="Search" id="search_btn">
+            </form>
+
+            <table id="menu_table">
+                <tr>
+
+                    <td id="menu_item"> <a href="index.html">Home </a> </td>
+                    <td id="menu_item"> <a href="#sweets">Sweets</a> </td>
+                    <td id="menu_item"> <a href="bakries.html">Bakries</a> </td>
+                    <td id="menu_item"> <a href="index.html">About us</a> </td>
+                    <td id="menu_item"> <a href="#contact_us">Contact us</a> </td>
+
+                </tr>
+            </table>
+        </nav>
+
+        <section>
+            <address id="Vanue">
+                Vanue: Sangam Vihar New Delhi-80
+            </address>
+
+            <address id="phone">
+                Order Online:+91 8527968049,+91 8384069064
+            </address>
+
+
+
+            <div id="m_sweets">
+                <h1 id="more_sweets">
+                    More Sweets
+                </h1>
+            </div>
+
+
+
+
+            <div id="sweets">
+                <img src="images/20.jpg" id="img_pic">
+                <center>
+                    <a href="index.html/#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/19.jpg" id="img_pic">
+                <center>
+                    <a href="index.html/#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/18.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/17.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets_end">
+                <img src="images/16.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/f.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/g.png" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/k.png" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/i.png" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets_end">
+                <img src="images/l.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+            <div id="sweets">
+                <img src="images/15.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/14.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/13.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/12.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets_end">
+                <img src="images/11.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+            <div id="sweets">
+                <img src="images/10.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/9.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/8.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/7.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets_end">
+                <img src="images/6.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+            <div id="sweets">
+                <img src="images/5.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/4.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/3.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets">
+                <img src="images/2.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+            <div id="sweets_end">
+                <img src="images/1.jpg" id="img_pic">
+                <center>
+                    <a href="#form_box"><button id="buy_btn"> Buy Online</button></a>
+                </center>
+            </div>
+
+
+        </section>
+
+
+        <footer>
+
+            <div id="contact_us">
+                <h1 id="contact_title">Contact Us</h1>
+                <Address id="contact_detail"> Webside: Sweetshop.com</Address>
+                <Address id="contact_detail"> Conatact no.: +91 8527968049</Address>
+                <Address id="contact_detail"> Email ID: ali1832000@gmail.com</Address>
+                <Address id="contact_detail"> Sangam Vihar New Delhi-80</Address>
+            </div>
+
+            <div id="devepoper">Developed by :- Hasan</div>
+
+            <div id="social_link">
+                <h1 id="contact_title">Follow Us</h1>
+                <a href="put url"><img src="images/whatsapp.png" id="social_logo"></a>
+                <img src="images/instragram.png" id="social_logo">
+            </div>
+
+        </footer>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    </html>
